@@ -1,0 +1,29 @@
+{
+  "name": "atube",
+  "version": "1.0.0",
+  "description": "atube",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gapsin/atube-origin.git"
+  },
+  "author": "ljh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gapsin/atube-origin/issues"
+  },
+  "homepage": "https://github.com/gapsin/atube-origin#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/node": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "nodemon": "^2.0.22"
+  }
+}
