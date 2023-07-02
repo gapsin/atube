@@ -6,8 +6,6 @@ import morgan from 'morgan';
 const app = express()
 const port = 3000
 const logger = morgan("dev");
-app.use (logger);
-
 
 app.use(logger);
 
@@ -21,6 +19,8 @@ app.get('/', (req, res) => {
   console.log(req);
   res.send('Hello World!')
 })
+
+app.use(middleWare);
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
